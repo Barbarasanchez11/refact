@@ -66,3 +66,105 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* mis css*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.containerApp {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header*/
+.header {
+  background: linear-gradient(to right, #FF6B6B, #FFD93D);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header img {
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+}
+
+/* Card empleados */
+.empleados {
+  display: flex;
+  
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px #0000001a;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+/* Calculadora */
+h1 {
+  text-align: center;
+  color: #FF6B6B;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid #FF6B6B;
+  width: calc(80% - 24px);
+  font-size: 1rem;
+}
+
+button {
+  background-color: #FFD93D;
+  color: #FF6B6B;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #FF6B6B;
+  color: #FFD93D;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
